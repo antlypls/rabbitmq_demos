@@ -1,6 +1,6 @@
 h1. RabbitMQ demos.
 
-Afew samples of how to use RabbitMQ with Ruby and C#.
+A few samples of how to use RabbitMQ with Ruby and C#.
 
 Usefull links:
 * "RabbitMQ Project":http://www.rabbitmq.com/
