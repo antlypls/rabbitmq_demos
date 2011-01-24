@@ -1,0 +1,15 @@
+projects = %w(data_exchange persisted_queue protobuf_sample simple_example)
+
+projects.each{ |item|
+  desc "run sample #{item}"
+  task item.to_sym do
+    puts "running #{item}"
+    Dir.chdir(item)
+    puts `ruby send_message.rb`
+    puts `ruby receive_message.rb`
+    Dir.chdir('..')
+  end
+}
+
+desc "run all examples"
+task :all => projects

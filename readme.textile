@@ -1,0 +1,9 @@
+h1. RabbitMQ demos.
+
+Afew samples of how to use RabbitMQ with Ruby and C#.
+
+Usefull links:
+* "RabbitMQ Project":http://www.rabbitmq.com/
+* "RabbitMQ Server Downloads":http://www.rabbitmq.com/server.html
+* ".NET client":http://www.rabbitmq.com/dotnet.html
+* "Carrot gem":http://github.com/famoseagle/carrot
